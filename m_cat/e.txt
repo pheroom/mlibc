@@ -1,4 +1,0 @@
-A static function in C is a function that has a scope that is limited to its object file.
-
-    This means that the static function is only visible in its object file.
-A function can be declared as static function by placing the static keyword before the function name.

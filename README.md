@@ -11,6 +11,7 @@ In other project folders you will find my solutions for each problem. The code w
 
 1. [m_cat](https://github.com/pheroom/mlibc/blob/main/README.md#m_cat)
 2. [m_grep](https://github.com/pheroom/mlibc/blob/main/README.md#m_grep)
+2. [dsa_1](https://github.com/pheroom/mlibc/blob/main/README.md#dsa_1)
 
 ## Tasks
 
@@ -18,8 +19,7 @@ In other project folders you will find my solutions for each problem. The code w
 
 TEMPLATE: `cat [OPTION] [FILES]`
 
-The cat utility shall read files in sequence and shall write
-their contents to the standard output in the same sequence.
+The cat utility shall read files in sequence and shall write their contents to the standard output in the same sequence.
 
 Flags:
 1. **-b** numbers only non-empty lines
@@ -45,3 +45,25 @@ Flags:
 8. **-s** suppress error messages about nonexistent or unreadable files
 9. **-f file** take regexes from a file
 10. **-o** output the matched parts of a matching line
+
+### dsa_1
+
+All the basic and advanced data structures and algorithms implementation section. In this basic paragraph it is necessary to implement a variety of simple algorithms and basic data structure. In particular sorting and recursion.
+
+Implement data structures:
+1. **stack** insertion of a new element and removal of an existing element takes place at the same end represented as the top of the stack
+2. **queue** open at both ends and the operations are performed in First In First Out (FIFO) order
+3. **hash map** associative array, maps keys to values
+
+Implement functions:
+1. **isPrime()** checking a number for primality
+2. **sieveEratosthenes()** implements the Sieve of Eratosthenes algorithm
+3. **max()** and **min()** find max and min value from of a array
+4. **factorial()** find factorial form of a number
+5. **gcd()** implements the Euclidean algorithm
+6. **power()** fast find power of a number
+7. **fib()** find Fibonacci sequence with a given length
+8. **bubbleSort()** implements sinking sort
+9. **selectSort()** is an in-place comparison sorting algorithm 
+10. **insertSort()** builds the final sorted array (or list) one item at a time by comparisons
+11. **counterSort()** counting the number of occurrences of each unique element in an array or list

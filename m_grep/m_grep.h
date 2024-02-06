@@ -1,5 +1,5 @@
-#ifndef M_CAT_M_GREP_H
-#define M_CAT_M_GREP_H
+#ifndef M_GREP_H
+#define M_GREP_H
 
 #include <stdio.h>
 #include <string.h>
@@ -17,4 +17,4 @@ typedef char FILES[10][100];
 char* toLower(char* s);
 void processFile(char *, PATTERNS, int, int *, int *);
 
-#endif //M_CAT_M_GREP_H
+#endif //M_GREP_H

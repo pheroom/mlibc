@@ -81,7 +81,6 @@ int main(int argc, char **argv){
         }
     }
 
-
     if(flags.i){
         for (int i = 0; i < patternsCount; ++i) toLower(patterns[i]);
     }
